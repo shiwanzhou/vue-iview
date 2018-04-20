@@ -1,0 +1,83 @@
+html, body{overflow: auto;background: #fff}
+body{font-family:PingFangSC-Regular,"Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;;}
+.button{
+    font-size: 14px;
+    width: 110px;
+    height: 32px;
+    color: #1890FF;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    float: right;
+    line-height: 32px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.button.blue{ background: #2396FF; color: #fff;  }
+a{text-decoration: none}
+.gray{color: #A4A4A4}
+
+
+.big_box{width: 1210px; margin: 0 auto;}
+.header{height: 56px;line-height: 56px;padding-right: 16px;position: relative;padding-left: 24px;top:4px;}
+.header .left{float: left}
+.header .left .logo{background: url(../images/home/ids_logo.png) no-repeat;width: 112px;height: 46px;float: left;}
+.header .left .text{float: left;font-size: 14px;margin-left: 10px;margin-top: -2px;}
+.header .left .text .text_t{}
+.header .right{float: right;margin-top: 9px;}
+.header .right .blue_text{float: right;color: #1890FF;font-size: 12px;display: block;width: 120px;height: 32px;line-height: 36px;margin-right: -16px;}
+.header .nav{position: absolute;right: 24px;z-index: 999;background: #fff;top: 45px;width: 200px;padding-bottom: 10px;}
+.header .nav .item{display: block;height: 64px;padding: 0px 10px 10px 23px;line-height: 54px;}
+.header .nav .item:hover{background:rgba(230,247,255,1);}
+.header .nav .item .title{  color: #000; font-size: 14px;  height: 20px;}
+.header .nav .item .gray{ font-size: 14px;}
+.header .button {}
+.header .button .text{margin-left: -7px;}
+.header .button .icon{   width: 24px;    height: 16px; display: inline-block;  position: relative; right: -8px;top: 4px;}
+.header .button .icon.top{transform: rotate(180deg)}
+.banner{ width: 100%; background: #14599d;}
+.banner .banner_inner{width: 1210px;margin:0 auto;position: relative;}
+.banner .btn{position: absolute;bottom: 15%;margin-left: 37%;}
+.banner .btn a{cursor:pointer;display: inline-block;width: 149px;height: 51px;border-radius: 26px;margin-right: 16px;line-height: 51px;/* float: left; */border: 1px solid #fff;background: none;text-align: center;color: #fff;font-size: 22px;}
+.banner img{width: 100%;background-size: cover;display: block}
+
+
+/*func*/
+.func{display: flex;margin-top: 53px;padding-left: 51px;}
+.func .item{width: 21%;}
+.func .item .title{ margin-bottom: 16px;  }
+.func .item .title .icon{display: inline-block;width: 24px;height: 21px;}
+.func .item .title .icon_avatar{background: url(../images/home/use_case_icon_1.png) no-repeat;}
+.func .item .title .icon_app{background: url(../images/home/use_case_icon_2.png) no-repeat;}
+.func .item .title .icon_sdk{background: url(../images/home/use_case_icon_3.png) no-repeat;height: 24px;position: relative;top: 3px;}
+.func .item .title .icon_channel{background: url(../images/home/use_case_icon_4.png) no-repeat;}
+.func .item .title .icon_data{background: url(../images/home/use_case_icon_5.png) no-repeat;}
+.func .item .title .icon_operate{background: url(../images/home/use_case_icon_6.png) no-repeat;}
+.func .item .title .text{ color: #333333; font-size: 22px;  }
+.func .item .content{}
+.func .item .content a{  color: #1890FF; font-size: 14px;display: block; text-decoration: none; margin-bottom: 8px;  }
+
+/*product*/
+.product_bg{background: rgba(244,245,246,1);width: 100%;}
+.product{margin-top: 60px;/* border-top: 1px solid #E4E7ED; */background: rgba(244,245,246,1);  padding-top: 1px;}
+.product .title{text-align: center;color: #333;font-size: 32px;margin-top: 36px;margin-bottom: 38px;}
+.product .box{display: flex;padding-left: 51px;padding-right: 51px;}
+.product .item{width: 25%;background: #fff;padding: 21px 28px 26px 31px;margin-right: 20px;border-left: 1px solid #1890FF;}
+.product .item .small_title{}
+.product .item .small_title a{ color: #1890FF;  font-size: 22px;}
+.product .item .big_title{color: #333333;margin-bottom: 16px;margin-top: 3px;font-size: 22px;}
+.product .item .text{  font-size: 14px;  color: #AFBCC7;}
+.product .item .instructions{  margin-top: 6px;}
+.product .item .instructions a{  font-size: 14px; color: #2E9BFF;}
+.product .item_03,.product .item_04{background: rgba(244,245,246,1);border-left:none;display: none}
+
+/*footer*/
+.footer{padding-left: 51px;padding-right: 51px;font-size: 12px;background: rgba(244,245,246,1);padding-bottom: 72px;padding-top: 56px;}
+.footer .left{ float: left;  }
+.footer .right{ float: right;  }
+.footer .left a{margin-right: 3px;}
+
+
+
+
