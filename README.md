@@ -2,7 +2,7 @@
 
 # manage-system #
 
-基于Vue.js 2.x系列 + iview2.x + webpack3 的后台管理系统解决方案。
+基于Vue.js 2.x + iview2.x + webpack3 + vuex3.x 的后台管理系统解决方案。
 
 
 ## 前言 ##
